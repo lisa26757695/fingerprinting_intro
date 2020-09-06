@@ -3,7 +3,7 @@
 This mini project is an introduction to an open-source web-crawling tool called OpenWPM. Below is the analysis of crawling data in two modes (vanilla mode and ad-blocking mode) with top-100 websites from Tranco(https://tranco-list.eu/download_daily/56JN). 
 
 ## HTTP(S) Requests 
-### Differences between two distributions
+### Distributions of third-party HTTP requests
 ![HTTP Requests Distribution](http.png)
 
 The plot above shows a great difference bewteen the number of third-party HTTP requests in vanilla mode and ad-blocking mode. Specifically, for each website, the number of third-party HTTP requests made without ad-blocker is at least greater than that with ad-blocker.
@@ -37,6 +37,7 @@ By applying ad-blocker, the ad-serving website `doubleclick.net` disappeared fro
 
 
 ## Cookies
+### Distributions of third-party Cookies
 ![Cookies Distribution](cookies.png)
 
 The plot above shows a great difference bewteeen the number of third-party cookies stored in vanilla mode and ad-blocking mode. Most of the time, the number of third-party cookies stored without ad-blocker is greater or equal to that with ad-blocker. Only a few websites have more third-party cookies stored by using the ad-blocker.
@@ -65,6 +66,7 @@ The rest of domains are either CDNs or services provider by some companies and t
 By applying ad-blocker, the ad-serving websites disappeared from the list, and only nonmalicious domains are still on the list. 
 
 ## JavaScript
+### Distributions of third-party JavaScript API calls
 ![JavaScript Distribution](js.png)
 
 The plot above shows a great difference bewteen the number of JavaScript API calls made in vanilla mode and ad-blocking mode. Most of the time, the number of third-party JavaScript API calls made without ad-blocker is greater or equal to that with ad-blocker. Only a few websites made more third-party JavaScript API calls by using the ad-blocker.
