@@ -14,7 +14,7 @@ The plot above shows a great difference bwteeen the number of third-party HTTP r
 | --: | :-------------------- | -----------------: | --- | :-------------------- | ----------------: |
 |   1 | ssl-images-amazon.com |                531 |     | ssl-images-amazon.com |               533 |
 |   2 | sohu.com              |                333 |     | msocdn.com            |               255 |
-|   3 | doubleclick.net       |                301 |     |csdnimg.cn             |               217 |
+|   3 | doubleclick.net       |                301 |     | csdnimg.cn            |               217 |
 |   4 | alicdn.com            |                265 |     | cloudfront.net        |               203 |
 |   5 | msocdn.com            |                255 |     | pstatic.net           |               198 |
 |   6 | google.com            |                245 |     | alicdn.com            |               197 |
@@ -35,7 +35,7 @@ The plot above shows a great difference bwteeen the number of third-party HTTP r
 | --: | :-------------------- | -----------------: | --- | :-------------------- | ----------------: |
 |   1 | yahoo.com             |                618 |     | cnn.com               |               451 |
 |   2 | cnn.com               |                513 |     | cloudflare.com        |               261 |
-|   3 | cloudflare.com        |                277 |     |taobao.com             |               201 |
+|   3 | cloudflare.com        |                277 |     | taobao.com            |               201 |
 |   4 | demdex.net            |                251 |     | amazon.com            |               137 |
 |   5 | pubmatic.com          |                220 |     | creativecommons.org   |               129 |
 |   6 | doubleclick.net       |                145 |     | aliexpress.com        |               112 |
