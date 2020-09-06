@@ -25,16 +25,21 @@ The plot above shows a great difference bwteeen the number of third-party HTTP r
 
 ('v' stands for vanilla mode, 'a' stands for ad-blocking mode)
 
-ssl-images-amazon.com is the most popular third-party domain for both modes. qhimg.com and pinimg.com are also image servers. 
-doubleclick.net is the ad-serving website.
-cloudfront.net is part of a content delivery network with ads.
-The rest of domains are either CDNs or services provider by some companies.
+`ssl-images-amazon.com` is the most popular third-party domain for both modes. `qhimg.com` and `pinimg.com` are also image servers. 
+
+`doubleclick.net` is the ad-serving website.
+
+`cloudfront.net` is part of a content delivery network with ads.
+
+The rest of domains are either CDNs or services provider by some companies and they are not very malicious I think.
 
 By applying ad-blocker, the ad-serving website `doubleclick.net` disappeared from the list. 
 
 
 ## Cookies
 ![Cookies Distribution](cookies.png)
+
+The plot above shows a great difference bwteeen the number of third-party cookies stored in vanilla mode and ad-blocking mode. Most of the time, the number of third-party cookies stored without ad-blocker is greater or equal to that with ad-blocker. Only a few websites have more third-party cookies stored by using the ad-blocker.
 
 #### Top 10 third-party domains storing cookies
 
@@ -52,6 +57,12 @@ By applying ad-blocker, the ad-serving website `doubleclick.net` disappeared fro
 |  10 | creativecommons.org   |                136 |     | msn.com               |               62  |
 
 ('v' stands for vanilla mode, 'a' stands for ad-blocking mode)
+
+`demdex.net`, `pubmatic.com`, `doubleclick.net`, `rubiconproject.com`, and `casalemedia.com` are all related to ad-serving / data collection. 
+
+The rest of domains are either CDNs or services provider by some companies and they are not very malicious I think.
+
+By applying ad-blocker, the ad-serving websites disappeared from the list, and only nonmalicious domains are still on the list. 
 
 ## JavaScript
 ![JavaScript Distribution](js.png)
@@ -72,3 +83,9 @@ By applying ad-blocker, the ad-serving website `doubleclick.net` disappeared fro
 |  10 | googletagmanager.com  |                794 |     | bbci.co.uk            |               370 |
 
 ('v' stands for vanilla mode, 'a' stands for ad-blocking mode)
+
+`media.net`, `segment.com`, `moatads.com`, and `doubleclick.net` are all related to ad-serving / data collection. 
+
+The rest of domains are either CDNs or services provider by some companies and they are not very malicious I think.
+
+By applying ad-blocker, the ad-serving websites disappeared from the list, and only nonmalicious domains are still on the list. 
