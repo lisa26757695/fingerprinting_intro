@@ -25,13 +25,20 @@ The plot above shows a great difference bwteeen the number of third-party HTTP r
 
 ('v' stands for vanilla mode, 'a' stands for ad-blocking mode)
 
+ssl-images-amazon.com is the most popular third-party domain for both modes. qhimg.com and pinimg.com are also image servers. 
+doubleclick.net is the ad-serving website.
+cloudfront.net is part of a content delivery network with ads.
+The rest of domains are either CDNs or services provider by some companies.
+
+By applying ad-blocker, the ad-serving website `doubleclick.net` disappeared from the list. 
+
 
 ## Cookies
 ![Cookies Distribution](cookies.png)
 
 #### Top 10 third-party domains storing cookies
 
-|     | Domain (v)            | # of Cookies Storing (v) | | Domain  (a)           | # of Cookies Storing (a) |
+|     | Domain (v)            | # of Cookies Storing (v) | | Domain  (a)         | # of Cookies Storing (a) |
 | --: | :-------------------- | -----------------: | --- | :-------------------- | ----------------: |
 |   1 | yahoo.com             |                618 |     | cnn.com               |               451 |
 |   2 | cnn.com               |                513 |     | cloudflare.com        |               261 |
