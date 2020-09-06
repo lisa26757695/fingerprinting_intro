@@ -2,7 +2,7 @@
 
 This mini project is a introduction to a open-source web-crawling tool called OpenWPM. Below is the analysis of data in two modes (vanilla mode and ad-blocking mode). 
 
-## HTTP Requests 
+## HTTP(S) Requests 
 ### Differences between two distributions
 ![HTTP Requests Distribution](http.png)
 
@@ -29,5 +29,39 @@ The plot above shows a great difference bwteeen the number of third-party HTTP r
 ## Cookies
 ![Cookies Distribution](cookies.png)
 
+#### Top 10 third-party domains storing cookies
+
+|     | Domain (v)            | # of Cookies Storing (v) | | Domain  (a)           | # of Cookies Storing (a) |
+| --: | :-------------------- | -----------------: | --- | :-------------------- | ----------------: |
+|   1 | yahoo.com             |                618 |     | cnn.com               |               451 |
+|   2 | cnn.com               |                513 |     | cloudflare.com        |               261 |
+|   3 | cloudflare.com        |                277 |     |taobao.com             |               201 |
+|   4 | demdex.net            |                251 |     | amazon.com            |               137 |
+|   5 | pubmatic.com          |                220 |     | creativecommons.org   |               129 |
+|   6 | doubleclick.net       |                145 |     | aliexpress.com        |               112 |
+|   7 | amazon.com            |                139 |     | yahoo.com             |               106 |
+|   8 | rubiconproject.com    |                138 |     | ebay.com              |               69  |
+|   9 | casalemedia.com       |                137 |     | weebly.com            |               67  |
+|  10 | creativecommons.org   |                136 |     | msn.com               |               62  |
+
+('v' stands for vanilla mode, 'a' stands for ad-blocking mode)
+
 ## JavaScript
 ![JavaScript Distribution](js.png)
+
+#### Top 10 third-party domains that are making JavaScript API calls
+
+|     | Domain (v)            | # of JS API Calls (v) | | Domain  (a)           | # of of JS API Calls (a) |
+| --: | :-------------------- | -----------------: | --- | :-------------------- | ----------------: |
+|   1 | forbesimg.com         |               7048 |     | forbesimg.com         |              5066 |
+|   2 | media.net             |               2355 |     | wsimg.com             |              2560 |
+|   3 | google-analytics.com  |               2308 |     | alicdn.com            |              1088 |
+|   4 | segment.com           |               2112 |     | itc.cn                |               781 |
+|   5 | alicdn.com            |               1284 |     | segment.com           |               650 |
+|   6 | moatads.com           |               1112 |     | cnn.com               |               601 |
+|   7 | doubleclick.net       |                916 |     | nytimes.com           |               595 |
+|   8 | adobedtm.com          |                888 |     | youtube.com           |               561 |
+|   9 | itc.cn                |                848 |     | guim.co.uk            |               398 |
+|  10 | googletagmanager.com  |                794 |     | bbci.co.uk            |               370 |
+
+('v' stands for vanilla mode, 'a' stands for ad-blocking mode)
