@@ -10,7 +10,7 @@ The plot above shows a great difference bwteeen the number of third-party HTTP r
 
 #### Top 10 third-party domains with HTTP(S) requests
 
-|     | Domain (vanilla)      | # Third-Party HTTP Requests (vanilla) |     | Domain (ad-blocking)       | # Third-Party HTTP Requests (ad-blocking) |
+|     | Domain (v)            | # of HTTP Requests (v) | | Domain  (a)           | # of HTTP Requests (a) |
 | --: | :-------------------- | -----------------: | --- | :-------------------- | ----------------: |
 |   1 | ssl-images-amazon.com |                531 |     | ssl-images-amazon.com |               533 |
 |   2 | sohu.com              |                333 |     | msocdn.com            |               255 |
@@ -22,6 +22,8 @@ The plot above shows a great difference bwteeen the number of third-party HTTP r
 |   8 | pstatic.net           |                210 |     | sinaimg.cn            |               155 |
 |   9 | cloudfront.net        |                208 |     | qhimg.com             |               154 |
 |  10 | pinimg.com            |                200 |     | awsstatic.com         |               149 |
+
+('v' stands for vanilla mode, 'a' stands for ad-blocking mode)
 
 
 ## Cookies
