@@ -3,10 +3,10 @@
 This mini project is an introduction to an open-source web-crawling tool called OpenWPM. Below is the analysis of crawling data in two modes (vanilla mode and ad-blocking mode) with top-100 websites from Tranco(https://tranco-list.eu/download_daily/56JN). 
 
 ## HTTP(S) Requests 
-### Distributions of third-party HTTP requests
+### Distribution of third-party HTTP requests
 ![HTTP Requests Distribution](http.png)
 
-The plot above shows a great difference bewteen the number of third-party HTTP requests in vanilla mode and ad-blocking mode. Specifically, for each website, the number of third-party HTTP requests made without ad-blocker is at least greater than that with ad-blocker.
+The plot above shows the difference between the number of third-party HTTP requests in vanilla mode and ad-blocking mode. Specifically, for each website, the number of third-party HTTP requests made without ad-blocker is at least greater than that with ad-blocker.
 
 #### Top 10 third-party domains with HTTP(S) requests
 
@@ -31,16 +31,16 @@ The plot above shows a great difference bewteen the number of third-party HTTP r
 
 `cloudfront.net` is part of a content delivery network with ads.
 
-The rest of domains are either CDNs or services provider by some companies and they are not very malicious I think.
+The rest of the domains are either CDNs or services providers by some companies and they are not very malicious I think.
 
 By applying ad-blocker, the ad-serving website `doubleclick.net` disappeared from the list. 
 
 
 ## Cookies
-### Distributions of third-party Cookies
+### Distribution of third-party Cookies
 ![Cookies Distribution](cookies.png)
 
-The plot above shows a great difference bewteeen the number of third-party cookies stored in vanilla mode and ad-blocking mode. Most of the time, the number of third-party cookies stored without ad-blocker is greater or equal to that with ad-blocker. Only a few websites have more third-party cookies stored by using the ad-blocker.
+The plot above shows a great difference between the number of third-party cookies stored in vanilla mode and ad-blocking mode. Most of the time, the number of third-party cookies stored without ad-blocker is greater or equal to that with ad-blocker. Only a few websites have more third-party cookies stored by using the ad-blocker.
 
 #### Top 10 third-party domains storing cookies
 
@@ -61,15 +61,15 @@ The plot above shows a great difference bewteeen the number of third-party cooki
 
 `demdex.net`, `pubmatic.com`, `doubleclick.net`, `rubiconproject.com`, and `casalemedia.com` are all related to ad-serving / data collection. 
 
-The rest of domains are either CDNs or services provider by some companies and they are not very malicious I think.
+The rest of the domains are either CDNs or services providers by some companies and they are not very malicious I think.
 
 By applying ad-blocker, the ad-serving websites disappeared from the list, and only nonmalicious domains are still on the list. 
 
 ## JavaScript
-### Distributions of third-party JavaScript API calls
+### Distribution of third-party JavaScript API calls
 ![JavaScript Distribution](js.png)
 
-The plot above shows a great difference bewteen the number of JavaScript API calls made in vanilla mode and ad-blocking mode. Most of the time, the number of third-party JavaScript API calls made without ad-blocker is greater or equal to that with ad-blocker. Only a few websites made more third-party JavaScript API calls by using the ad-blocker.
+The plot above shows a great difference between the number of JavaScript API calls made in vanilla mode and ad-blocking mode. Most of the time, the number of third-party JavaScript API calls made without ad-blocker is greater or equal to that with ad-blocker. Only a few websites made more third-party JavaScript API calls by using the ad-blocker.
 
 #### Top 10 third-party domains that are making JavaScript API calls
 
@@ -90,6 +90,6 @@ The plot above shows a great difference bewteen the number of JavaScript API cal
 
 `media.net`, `segment.com`, `moatads.com`, and `doubleclick.net` are all related to ad-serving / data collection. 
 
-The rest of domains are either CDNs or services provider by some companies and they are not very malicious I think.
+The rest of the domains are either CDNs or services providers by some companies and they are not very malicious I think.
 
 By applying ad-blocker, the ad-serving websites disappeared from the list, and only nonmalicious domains are still on the list. 
