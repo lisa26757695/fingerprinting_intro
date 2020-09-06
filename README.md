@@ -6,7 +6,7 @@ This mini project is a introduction to a open-source web-crawling tool called Op
 ### Differences between two distributions
 ![HTTP Requests Distribution](http.png)
 
-The plot above shows a great difference bwteeen the number of third-party HTTP requests in vanilla mode and ad-blocking mode. Specifically, for each website, the number of third-party HTTP requests made without ad-blocker is at least greater than that with ad-blocker.
+The plot above shows a great difference bewteeen the number of third-party HTTP requests in vanilla mode and ad-blocking mode. Specifically, for each website, the number of third-party HTTP requests made without ad-blocker is at least greater than that with ad-blocker.
 
 #### Top 10 third-party domains with HTTP(S) requests
 
@@ -39,7 +39,7 @@ By applying ad-blocker, the ad-serving website `doubleclick.net` disappeared fro
 ## Cookies
 ![Cookies Distribution](cookies.png)
 
-The plot above shows a great difference bwteeen the number of third-party cookies stored in vanilla mode and ad-blocking mode. Most of the time, the number of third-party cookies stored without ad-blocker is greater or equal to that with ad-blocker. Only a few websites have more third-party cookies stored by using the ad-blocker.
+The plot above shows a great difference bewteeen the number of third-party cookies stored in vanilla mode and ad-blocking mode. Most of the time, the number of third-party cookies stored without ad-blocker is greater or equal to that with ad-blocker. Only a few websites have more third-party cookies stored by using the ad-blocker.
 
 #### Top 10 third-party domains storing cookies
 
@@ -66,6 +66,8 @@ By applying ad-blocker, the ad-serving websites disappeared from the list, and o
 
 ## JavaScript
 ![JavaScript Distribution](js.png)
+
+The plot above shows a great difference bewteeen the number of JavaScript API calls made in vanilla mode and ad-blocking mode. Most of the time, the number of third-party JavaScript API calls made without ad-blocker is greater or equal to that with ad-blocker. Only a few websites got more JavaScript API calls made by third-party domains than that by using the ad-blocker.
 
 #### Top 10 third-party domains that are making JavaScript API calls
 
